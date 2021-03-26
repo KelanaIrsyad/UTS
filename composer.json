@@ -8,12 +8,16 @@
 	"license": "MIT",
 	"authors": [
 		{
-			"name": "KelanaIrsyad",
-			"email": "irsyadkelans12@gmail.com"
+			"name": "David Zuelke",
+			"email": "dz@heroku.com"
 		}
 	],
 	"bin": [
 		"bin/heroku-php-apache2",
 		"bin/heroku-php-nginx"
 	]
+	 "post-install-cmd": [
+     "php artisan clear-compiled",
+     "chmod -R 777 public/"
+ ]
 }
