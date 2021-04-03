@@ -16,7 +16,7 @@
 
 	<div class="navigasi">
 		<ul>
-			<div class="navhome"><li><a href="home.html">HOME</a></li></div>
+			<div class="navhome"><li><a href="index.html">HOME</a></li></div>
 				<div class="navcegah"><li><a href="cegah.html">PENCEGAHAN COVID-19</a></li></div>
 				<div class="navdata"><li><a href="data.html">DATA DAN STATISTIK</a></li></div>
 				<div class="navkuis"><li><a href="kuis.html">KUIS</a></li></div>
